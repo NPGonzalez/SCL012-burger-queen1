@@ -9,8 +9,9 @@ import { LunchbComponent } from './components/lunchb/lunchb.component';
 import { OrdersComponent } from './components/orders/orders.component';
 import { StatusordersComponent } from './components/statusorders/statusorders.component';
 import { LoginComponent } from './components//login/login.component';
+
 const routes: Routes = [
-  { path: 'logon', component: LoginComponent },
+  { path: 'login', component: LoginComponent },
   { path: 'home', component: HomeComponent },
   { path: 'breakfast', component: BreakfastComponent },
   { path: 'lunch', component: LunchComponent },
